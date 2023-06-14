@@ -2,7 +2,6 @@ package com.example.WebBanHang.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotEmpty;
 
 import java.util.List;
 
@@ -13,7 +12,7 @@ public class DanhMuc {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
 	
-	@NotEmpty(message="Tên danh mục không được trống")
+//	@NotEmpty(message="Tên danh mục không được trống")
 	private String tenDanhMuc;
 
 	@JsonIgnore
