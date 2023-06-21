@@ -31,7 +31,7 @@
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #4CAF50;
+  background: #CC99CC;
   width: 100%;
   border: 0;
   padding: 15px;
@@ -42,7 +42,7 @@
   cursor: pointer;
 }
 .form button:hover,.form button:active,.form button:focus {
-  background: #43A047;
+  background: #CC99CC;
 }
 .form .message, #label {
 /*   margin: 15px 0 0; */
@@ -53,7 +53,7 @@
   text-align: center;
 }
 .form .message a {
-  color: #4CAF50;
+  color: #CC99CC;
   text-decoration: none;
   text-align: center;
 }
@@ -94,11 +94,11 @@
   color: #EF3B3A;
 }
 body {
-  background: #76b852; /* fallback for old browsers */
-  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
-  background: -moz-linear-gradient(right, #76b852, #8DC26F);
-  background: -o-linear-gradient(right, #76b852, #8DC26F);
-  background: linear-gradient(to left, #76b852, #8DC26F);
+  background: #CC99CC; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #CC99CC, #CC99CC);
+  background: -moz-linear-gradient(right, #CC99CC, #CC99CC);
+  background: -o-linear-gradient(right, #CC99CC, #CC99CC);
+  background: linear-gradient(to left, #CC99CC, #CC99CC);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
