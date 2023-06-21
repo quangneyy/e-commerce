@@ -104,7 +104,7 @@
 	<div class="login-page">
 		<div class="form">
 			<form:form method="POST" action='register' modelAttribute="newUser">
-				<h2 class="form-signin-heading" style="text-align: center">LaptopShop - Đăng ký tài khoản</h2>
+				<h2 class="form-signin-heading" style="text-align: center">MobileStore - Đăng ký tài khoản</h2>
 				<hr/>
 				<div class="form-group">
 					<form:input type="email" path="email" class="form-control"
