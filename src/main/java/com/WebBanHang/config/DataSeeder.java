@@ -45,7 +45,7 @@ public class DataSeeder implements ApplicationListener<ContextRefreshedEvent> {
 			NguoiDung admin = new NguoiDung();
 			admin.setEmail("admin@gmail.com");
 			admin.setPassword(passwordEncoder.encode("123456"));
-			admin.setHoTen("Nguyễn Xuân Nam");
+			admin.setHoTen("Tăng Bá Quang Minh");
 			admin.setSoDienThoai("123456789");
 			HashSet<VaiTro> roles = new HashSet<>();
 			roles.add(roleRepository.findByTenVaiTro("ROLE_ADMIN"));

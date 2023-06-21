@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Laptop Shop </title>
+        <title>Mobile </title>
     </head>
     <body> 
            <jsp:include page="include/homeHeader.jsp"></jsp:include>
